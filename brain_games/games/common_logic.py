@@ -3,6 +3,16 @@ import prompt
 QUESTION_TRIES_NUMBER = 3
 
 
+def welcome_user():
+    print('Welcome to the Brain Games!')
+
+    name = prompt.string('May I have your name? ')
+
+    print('Hello, {}!'.format(name))
+
+    return name
+
+
 def show_and_handle_questions(
         get_correct_answer_func,
         get_question_value_func,

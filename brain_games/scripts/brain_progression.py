@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-import brain_games.cli_common
 import brain_games.games.brain_progression
 import brain_games.games.common_logic
 
 
 def main():
-    user_name = brain_games.cli_common.welcome_user()
+    user_name = brain_games.games.common_logic.welcome_user()
     brain_games.games.brain_progression.show_game_conditions()
     brain_games.games.common_logic.show_and_handle_questions(
         brain_games.games.brain_progression.get_correct_answer,

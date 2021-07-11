@@ -2,6 +2,8 @@ import random
 
 NUMBER_IS_PRIME_CORRECT_ANSWER = 'yes'
 NUMBER_IS_NOT_PRIME_CORRECT_ANSWER = 'no'
+RANDOM_INTEGER_NUMBER_MIN = 1
+RANDOM_INTEGER_NUMBER_MAX = 1000
 
 
 def show_game_conditions():
@@ -15,7 +17,7 @@ def get_correct_answer(number):
 
 
 def get_question_value():
-    return random.randint(1, 1000)
+    return random.randint(RANDOM_INTEGER_NUMBER_MIN, RANDOM_INTEGER_NUMBER_MAX)
 
 
 def is_prime(number):

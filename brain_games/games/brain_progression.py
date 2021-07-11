@@ -1,6 +1,13 @@
 import random
 
 MISSED_NUMBER_DELIMITER = '..'
+MIN_NUMBERS_COUNT_IN_PROGRESSION = 3
+PROGRESSION_LENGTH_MIN = 5
+PROGRESSION_LENGTH_MAX = 15
+PROGRESSION_NUMBER_MIN = 1
+PROGRESSION_NUMBER_MAX = 50
+PROGRESSION_STEP_MIN = 1
+PROGRESSION_STEP_MAX = 10
 
 
 def show_game_conditions():
@@ -12,7 +19,7 @@ def get_correct_answer(expression):
     array_of_nums_len = len(str_nums_arr)
     array_of_nums = []
 
-    if array_of_nums_len < 3:
+    if array_of_nums_len < MIN_NUMBERS_COUNT_IN_PROGRESSION:
         return None
 
     for num in str_nums_arr:
@@ -41,9 +48,18 @@ def get_correct_answer(expression):
 
 
 def get_question_value():
-    progression_length = random.randint(5, 15)
-    progression_number = random.randint(1, 50)
-    progression_step = random.randint(1, 10)
+    progression_length = random.randint(
+        PROGRESSION_LENGTH_MIN,
+        PROGRESSION_LENGTH_MAX
+    )
+    progression_number = random.randint(
+        PROGRESSION_NUMBER_MIN,
+        PROGRESSION_NUMBER_MAX
+    )
+    progression_step = random.randint(
+        PROGRESSION_STEP_MIN,
+        PROGRESSION_STEP_MAX
+    )
     progression_empty_index = random.randint(0, progression_length - 1)
     progression_string = ''
 
