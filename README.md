@@ -7,3 +7,5 @@
 
 ### An example how to install and use
 [Brain even](https://asciinema.org/a/IUah3OOGcBM1pj4sWcqverQ4z)
+
+[Brain calculator](https://asciinema.org/a/dDBziht7ZGDJ5XMGbjYfVMPuG)

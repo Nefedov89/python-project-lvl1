@@ -1,29 +1,22 @@
 import prompt
-import random
 
 QUESTION_TRIES_NUMBER = 3
-NUMBER_IS_EVEN_CORRECT_ANSWER = 'yes'
-NUMBER_IS_NOT_EVEN_CORRECT_ANSWER = 'no'
 
 
-def show_game_conditions():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-
-
-def get_correct_answer(number):
-    return NUMBER_IS_EVEN_CORRECT_ANSWER \
-        if number % 2 == 0 \
-        else NUMBER_IS_NOT_EVEN_CORRECT_ANSWER
-
-
-def show_and_handle_questions(user_name=''):
+def show_and_handle_questions(
+        get_correct_answer_func,
+        get_question_value_func,
+        user_name=''
+):
     is_user_gave_wrong_answer = False
 
     for x in range(QUESTION_TRIES_NUMBER):
-        random_int_number = random.randint(1, 100)
-        print('Question: {}'.format(random_int_number))
+        question_value = get_question_value_func()
+        correct_answer = get_correct_answer_func(question_value)
+
+        print('Question: {}'.format(question_value))
+
         user_answer = prompt.string('Your answer: ')
-        correct_answer = get_correct_answer(random_int_number)
 
         if correct_answer == user_answer:
             print('Correct!')
