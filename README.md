@@ -5,4 +5,5 @@
 
 [![python-package-check](https://github.com/Nefedov89/python-project-lvl1/actions/workflows/python-package-check.yml/badge.svg)](https://github.com/Nefedov89/python-project-lvl1/actions/workflows/python-package-check.yml)
 
-[An example how to install and use](https://asciinema.org/a/IUah3OOGcBM1pj4sWcqverQ4z)
+### An example how to install and use
+[Brain even](https://asciinema.org/a/IUah3OOGcBM1pj4sWcqverQ4z)
