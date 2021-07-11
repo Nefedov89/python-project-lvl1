@@ -6,10 +6,12 @@
 [![python-package-check](https://github.com/Nefedov89/python-project-lvl1/actions/workflows/python-package-check.yml/badge.svg)](https://github.com/Nefedov89/python-project-lvl1/actions/workflows/python-package-check.yml)
 
 ### An example how to install and use
-[Brain even](https://asciinema.org/a/IUah3OOGcBM1pj4sWcqverQ4z)
+[Brain game: Is even?](https://asciinema.org/a/IUah3OOGcBM1pj4sWcqverQ4z)
 
-[Brain calculator](https://asciinema.org/a/dDBziht7ZGDJ5XMGbjYfVMPuG)
+[Brain game: Calculator](https://asciinema.org/a/dDBziht7ZGDJ5XMGbjYfVMPuG)
 
-[Brain greatest common divisor](https://asciinema.org/a/pAT8KOAqCK8q3KY1cZ1EuqQuL)
+[Brain game: Greatest common divisor](https://asciinema.org/a/pAT8KOAqCK8q3KY1cZ1EuqQuL)
 
-[Brain progression](https://asciinema.org/a/rXpA2FgrF3hOaHR9elBMAbk19)
+[Brain game: Progression](https://asciinema.org/a/rXpA2FgrF3hOaHR9elBMAbk19)
+
+[Brain game: Is prime?](https://asciinema.org/a/f6KF69iO2qemtL3pxsXvnrKV4)
