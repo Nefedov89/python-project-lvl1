@@ -11,3 +11,5 @@
 [Brain calculator](https://asciinema.org/a/dDBziht7ZGDJ5XMGbjYfVMPuG)
 
 [Brain greatest common divisor](https://asciinema.org/a/pAT8KOAqCK8q3KY1cZ1EuqQuL)
+
+[Brain progression](https://asciinema.org/a/rXpA2FgrF3hOaHR9elBMAbk19)
