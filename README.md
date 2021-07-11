@@ -9,3 +9,5 @@
 [Brain even](https://asciinema.org/a/IUah3OOGcBM1pj4sWcqverQ4z)
 
 [Brain calculator](https://asciinema.org/a/dDBziht7ZGDJ5XMGbjYfVMPuG)
+
+[Brain greatest common divisor](https://asciinema.org/a/pAT8KOAqCK8q3KY1cZ1EuqQuL)
